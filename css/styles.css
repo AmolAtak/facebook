@@ -1,0 +1,378 @@
+body {
+  background: #f0f2f5;
+  line-height: 1.34;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.main {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10%;
+  position: relative;
+}
+.one,
+.two {
+  display: inline-block;
+}
+.one {
+  width: 55%;
+  float: left;
+  margin-top: 3%;
+}
+.facebook-name {
+  font-size: 350%;
+  color: #1877f2;
+  padding: 0 5% 0 7%;
+  margin-bottom: 0;
+}
+.slogan {
+  font-size: 180%;
+  font-weight: 90;
+  padding: 0 5% 0 7%;
+  margin-top: 0;
+  color: rgba(0, 0, 0, 0.8);
+}
+.two {
+  width: 35%;
+  height: 100%;
+  margin-left: 5%;
+}
+.two-main {
+  background: #fff;
+  border-radius: 7px;
+  padding: 5%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+.email,
+.password,
+.log-in {
+  width: 98.5%;
+  color: #90949c;
+  font-size: 100%;
+  padding: 5%;
+  border-radius: 7px;
+  margin-bottom: 5%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.log-in,
+.log-in:hover {
+  width: 98.5%;
+  color: #fff;
+  background: #1877f2;
+  font-weight: bold;
+  font-size: 110%;
+  padding: 4%;
+  cursor: pointer;
+}
+.log-in:focus {
+  width: 98.6%;
+  border: 1px solid #76abf1;
+}
+.forgotten {
+  margin-bottom: 5%;
+}
+.forgotten-account {
+  color: #1877f2;
+  text-decoration: none;
+  font-size: 90%;
+  margin-left: 32.5%;
+}
+.forgotten-account:hover {
+  text-decoration: underline;
+}
+.hr {
+  border-bottom: 1px solid #dadde1;
+  margin-bottom: 10%;
+}
+.account {
+  margin-bottom: 5%;
+}
+.new-account {
+  display: bolck;
+  background: #42b72a;
+  font-size: 120%;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 7px;
+  padding: 4%;
+  margin-left: 18%;
+  font-weight: bold;
+  cursor: pointer;
+}
+.new-account:focus {
+  border: 2px solid #76abf1;
+  padding: 3.5%;
+}
+.create-page,
+.create-page > p > a {
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  font-size: 95%;
+}
+/* add display: none and z-index on signup, background: transparent use javascript */
+
+/* Sign Up */
+#sign-up {
+  display: none;
+  z-index: 10;
+}
+.sign-up {
+  width: 32.5%;
+  position: fixed;
+  top: 13%;
+  left: 33%;
+  background: #fff;
+  border-radius: 10px;
+  padding: 0 1%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+.sign-up-container {
+  position: relative;
+  top: -7px;
+  left: 10px;
+}
+.sign-up-name {
+  color: rgba(0, 0, 0, 0.9);
+  margin-bottom: 0;
+  margin-left: -7px;
+}
+.its-quick {
+  margin-top: 0;
+  margin-left: -7px;
+  font-size: 92.5%;
+  color: rgba(0, 0, 0, 0.6);
+}
+.three,
+.four {
+  display: inline-block;
+  width: 40%;
+}
+.four {
+  float: right;
+  position: absolute;
+  top: 25%;
+  left: 92.5%;
+}
+.hr1 {
+  position: relative;
+  top: -10px;
+}
+.signup-form {
+  position: relative;
+  top: -30px;
+}
+.fname {
+  width: 120%;
+}
+.fname:active {
+  color: rgba(0, 0, 0, 0.2);
+}
+.fname2 {
+  margin-left: 25%;
+}
+.s-password {
+  width: 99%;
+  padding: 2%;
+  margin-bottom: 2%;
+}
+#main {
+  opacity: 0.2;
+}
+.dob,
+.gender {
+  display: inline-block;
+  font-size: 75%;
+  color: rgba(0, 0, 0, 0.6);
+}
+.question {
+  display: inline-block;
+  opacity: 0.6;
+  cursor: pointer;
+}
+.day,
+.month,
+.year {
+  display: inline-block;
+  width: 29.8%;
+}
+#day,
+#month,
+#year {
+  width: 105%;
+  padding: 6%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  font-size: 90%;
+  color: rgba(0, 0, 0, 0.9);
+}
+.m1 {
+  margin-left: 3%;
+}
+option {
+  font-size: 102%;
+  color: rgba(0, 0, 0, 0.9);
+}
+.gender-main {
+  margin-top: 2%;
+}
+.female,
+.male,
+.custom {
+  display: inline-block;
+  width: 26.5%;
+  padding: 2%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  font-size: 95%;
+  color: rgba(0, 0, 0, 0.9);
+}
+.label1 {
+  margin-right: 25%;
+}
+.label2 {
+  margin-right: 40%;
+}
+.male,
+.custom {
+  margin-left: 2%;
+}
+.add-info {
+  font-size: 70%;
+  color: rgba(0, 0, 0, 0.6);
+}
+.a {
+  text-decoration: none;
+}
+.a:hover {
+  text-decoration: underline;
+}
+.new-signUp,
+.new-signUp:focus,
+.new-signUp:active {
+  display: bolck;
+  width: 50%;
+  background: #42b72a;
+  font-size: 120%;
+  color: #fff;
+  text-decoration: none;
+  border: rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  padding: 2%;
+  margin-left: 25%;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.box {
+  display: none;
+  width: 300px;
+  height: 135px;
+  background-color: #fff;
+  color: #000;
+  padding: 2%;
+  position: absolute;
+  margin: 40px;
+  top: 90px;
+  left: -305px;
+  float: left;
+  z-index: 1000;
+  font-size: 80%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4), 0 8px 16px rgba(0, 0, 0, 0.4),
+    0 -2px 4px rgba(0, 0, 0, 0.4);
+}
+.box.arrow-right:after {
+  z-index: 1000;
+  content: " ";
+  position: absolute;
+  right: -10px;
+  top: 5px;
+  border-top: 15px solid transparent;
+  border-right: none;
+  border-left: 15px solid #fff;
+  border-bottom: 15px solid transparent;
+}
+.hr2 {
+  margin-top: 4%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.close {
+  position: relative;
+  top: 10px;
+  left: 85%;
+  background: #4267b2;
+  color: #fff;
+  font-size: 100%;
+  padding: 1.5%;
+  text-decoration: none;
+}
+.gender-box {
+  display: none;
+  width: 300px;
+  height: 95px;
+  background-color: #fff;
+  color: #000;
+  padding: 2%;
+  position: absolute;
+  margin: 40px;
+  top: 155px;
+  left: -330px;
+  float: left;
+  z-index: 1000;
+  font-size: 80%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4), 0 8px 16px rgba(0, 0, 0, 0.4),
+    0 -2px 4px rgba(0, 0, 0, 0.4);
+}
+.gender-box.arrow-right:after {
+  z-index: 1000;
+  content: " ";
+  position: absolute;
+  right: -10px;
+  top: 5px;
+  border-top: 15px solid transparent;
+  border-right: none;
+  border-left: 15px solid #fff;
+  border-bottom: 15px solid transparent;
+}
+
+.success {
+  width: 25%;
+  margin-left: 37.5%;
+  margin-top: 10%;
+  border: 1px solid #4267b2;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3), 0 4px 8px rgba(0, 0, 0, 0.3),
+    0 -2px 4px rgba(0, 0, 0, 0.3);
+}
+.success1 {
+  font-size: 90%;
+  background: #4267b2;
+  padding: 5px;
+  color: #fff;
+}
+.success2 {
+  font-size: 80%;
+  padding: 2px 5px 2px 5px;
+  background: #fff;
+  margin: 0;
+}
+.success3 {
+  background: #fff;
+}
+.success6 {
+  margin-top: 0;
+  background: #fff;
+}
+.success5,
+.success5:hover {
+  background: #4267b2;
+  padding: 2%;
+  color: #fff;
+  margin-left: 90%;
+  font-size: 80%;
+  text-decoration: none;
+  cursor: pointer;
+}
+.success4 {
+  padding: 5%;
+}
